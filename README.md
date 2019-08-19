@@ -1,2 +1,2 @@
 # Moneysortinggame
-Money sorting game
+This is a Money sorting game.
