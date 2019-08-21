@@ -58,7 +58,7 @@ layer.add(goYenImg);
     //10yen
     var jyuYenImg = new Konva.Image({
         x:200,
-        y:20,
+        y:50,
         width:100,
         height: 100,
         draggable: true
@@ -67,33 +67,35 @@ layer.add(jyuYenImg);
 
     //50yen
     var gojyuYenImg = new Konva.Image({
-        x:200,
-        y:20,
+        x:20,
+        y:50,
         width:100,
         height: 100,
         draggable: true
     });
 layer.add(gojyuYenImg);
 
-    //100yen
-    var hyakuYenImg = new Konva.Image({
-        x:200,
-        y:20,
-        width:100,
-        height: 100,
-        draggable: true
-    });
-layer.add(hyakuYenImg);
-
     //500yen
     var gohyakuYenImg = new Konva.Image({
-        x:200,
+        x:100,
         y:20,
         width:100,
         height: 100,
         draggable: true
     });
 layer.add(gohyakuYenImg);
+
+    //100yen
+    var hyakuYenImg = new Konva.Image({
+        x:100,
+        y:50,
+        width:100,
+        height: 100,
+        draggable: true
+    });
+layer.add(hyakuYenImg);
+
+
 
 //1yen
 var imageObj1 = new Image();
@@ -109,10 +111,9 @@ imageObj2.onload = function(){
     goYenImg.image(imageObj2);
     layer.draw();
 };
+imageObj2.src = "https://illustrain.com/img/work/2016/illustrain09-okane7.png";
 
 //10yen
-imageObj3.src = "https://illustrain.com/img/work/2016/illustrain09-okane7.png";
-
 var imageObj3 = new Image();
 imageObj3.onload = function(){
     jyuYenImg.image(imageObj3);
