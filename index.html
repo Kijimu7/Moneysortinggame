@@ -95,7 +95,65 @@ layer.add(gohyakuYenImg);
     });
 layer.add(hyakuYenImg);
 
+  //piggy bank 1yen
+  var ichiYenpiggyImg = new Konva.Image({
+        x:100,
+        y:500,
+        width:100,
+        height: 100,
+        draggable: false
+    });
+layer.add(ichiYenpiggyImg);
 
+//piggy bank 5yen
+var goYenpiggyImg = new Konva.Image({
+        x:400,
+        y:500,
+        width:100,
+        height: 100,
+        draggable: false
+    });
+layer.add(goYenpiggyImg);
+
+//piggy bank 10yen
+var jyuYenpiggyImg = new Konva.Image({
+        x:800,
+        y:500,
+        width:100,
+        height: 100,
+        draggable: false
+    });
+layer.add(jyuYenpiggyImg);
+
+//piggy bank 50yen
+var gojyuYenpiggyImg = new Konva.Image({
+        x:100,
+        y:650,
+        width:100,
+        height: 100,
+        draggable: false
+    });
+layer.add(gojyuYenpiggyImg);
+
+//piggy bank 100yen
+var hyakuYenpiggyImg = new Konva.Image({
+        x:400,
+        y:650,
+        width:100,
+        height: 100,
+        draggable: false
+    });
+layer.add(hyakuYenpiggyImg);
+
+//piggy bank 500yen
+var gohyakuYenpiggyImg = new Konva.Image({
+        x:800,
+        y:650,
+        width:100,
+        height: 100,
+        draggable: false
+    });
+layer.add(gohyakuYenpiggyImg);
 
 //1yen
 var imageObj1 = new Image();
@@ -145,18 +203,55 @@ imageObj6.onload = function(){
 };
 imageObj6.src = "https://illustrain.com/img/work/2016/illustrain02-money06.png";
 
+//piggy1yen
+var imageObj7 = new Image();
+imageObj7.onload = function(){
+    ichiYenpiggyImg.image(imageObj7);
+    layer.draw();
+};
+imageObj7.src = "https://illustrain.com/img/work/2016/illustrain04-money06.png";
 
 
+//piggy5yen
+var imageObj8 = new Image();
+imageObj8.onload = function(){
+    goYenpiggyImg.image(imageObj8);
+    layer.draw();
+};
+imageObj8.src = "https://illustrain.com/img/work/2016/illustrain04-money06.png";
 
 
+//piggy10yen
+var imageObj9 = new Image();
+imageObj9.onload = function(){
+    jyuYenpiggyImg.image(imageObj9);
+    layer.draw();
+};
+imageObj9.src = "https://illustrain.com/img/work/2016/illustrain04-money06.png";
 
+//piggy50yen
+var imageObj10 = new Image();
+imageObj10.onload = function(){
+    gojyuYenpiggyImg.image(imageObj10);
+    layer.draw();
+};
+imageObj10.src = "https://illustrain.com/img/work/2016/illustrain04-money06.png";
 
+//piggy100yen
+var imageObj11 = new Image();
+imageObj11.onload = function(){
+    hyakuYenpiggyImg.image(imageObj11);
+    layer.draw();
+};
+imageObj11.src = "https://illustrain.com/img/work/2016/illustrain04-money06.png";
 
-
-
-
-
-
+//piggy500yen
+var imageObj12 = new Image();
+imageObj12.onload = function(){
+    gohyakuYenpiggyImg.image(imageObj12);
+    layer.draw();
+};
+imageObj12.src = "https://illustrain.com/img/work/2016/illustrain04-money06.png";
 
 
 //use event delegation to update pointer style
