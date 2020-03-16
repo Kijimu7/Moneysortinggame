@@ -1,0 +1,20 @@
+        body{
+            margin:0;
+            padding: 0;
+            overflow: hidden;
+            background-color: lightyellow; 
+        }
+        .konvajs-content{
+            background-color: aliceblue;
+            margin: 5%;
+            border: solid 5px gray;
+        }
+        #stage-parent{
+            width: 100%;
+        }
+        #container{
+           
+            margin-top: 100px;
+        }
+   
+     
